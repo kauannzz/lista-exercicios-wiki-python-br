@@ -3,7 +3,7 @@ from time import sleep
 valor_hora = float(input('Quanto você ganha por hora: '))
 numero_mes = float(input('Quantas horas você trabalha por mês: '))
 
-salario = valor_hora * numero_mes
+salario = valor_hora * numero_mes #Calculo pra saber qual o valor do salário bruto
 
 print('Salário bruto:', salario)
 print('Calculando o que você terá que pagar ao governo... ')
